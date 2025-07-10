@@ -1,0 +1,36 @@
+import turtle as t
+import turtle
+window = t.getscreen()
+turtle.setup(1350,770)
+t.hideturtle()
+t.fillcolor("red")
+t.begin_fill()
+t.pensize(40)
+t.color("red")
+t.forward(150)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(100)
+t.end_fill()
+t.up()
+t.goto(50,-50)
+t.down()
+t.fillcolor("white")
+t.begin_fill()
+t.pensize(0)
+t.color("white")
+t.forward(25)
+t.backward(50)
+t.right(60)
+t.forward(50)
+t.left(125)
+t.forward(50)
+t.end_fill()
+
+
+
+
+window.mainloop()
